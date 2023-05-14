@@ -11,7 +11,7 @@ const books = [
 
 const getTheTitles = function (books) {
   //return title.bookName;
-  return books.map((item) => item.title);
+  return books.map(item => item.title);
 };
 
 getTheTitles(books);
